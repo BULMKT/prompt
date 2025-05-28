@@ -91,7 +91,7 @@ export default function Wizard() {
             {step === 1 && (
               <div className="bg-bolt-elements-background-depth-2 rounded-lg p-8 shadow-sm border border-bolt-elements-borderColor">
                 <div className="mb-6">
-                  <label htmlFor="appName" className="block text-bolt-elements-textPrimary font-medium mb-2">
+                  <label htmlFor="appName\" className="block text-bolt-elements-textPrimary font-medium mb-2">
                     App Name
                   </label>
                   <input
