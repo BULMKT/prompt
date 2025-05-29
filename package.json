@@ -8,8 +8,8 @@
   "type": "module",
   "scripts": {
     "deploy": "npm run build && wrangler pages deploy",
-    "build": "npx remix vite:build",
-    "dev": "npx remix vite:dev",
+    "build": "vite build",
+    "dev": "vite",
     "test": "vitest --run",
     "test:watch": "vitest",
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
@@ -57,7 +57,6 @@
     "ai": "^3.3.4",
     "date-fns": "^3.6.0",
     "diff": "^5.2.0",
-    "framer-motion": "^11.2.12",
     "isbot": "^4.1.0",
     "istextorbinary": "^9.5.0",
     "jose": "^5.6.3",
